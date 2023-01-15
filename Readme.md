@@ -109,10 +109,11 @@ $email_clicked = $email_clicked ? $email_clicked + 1 : 1;
 update_user_meta( $user_id, 'my_email_sender_email_clicked', $email_clicked );
 
 ?>
+```
+
 
 ## Warnung
 
 Ich weise darauf hin, dass dieses Plugin nicht auf einer produktiven Website verwendet werden sollte, da es illegal und unsicher sein kann. 
 Stellen Sie sicher, dass Sie die Gesetze und Best Practices in Bezug auf Phishing und Datenschutz einhalten, bevor Sie dieses Plugin verwenden.
 Bitte beachten Sie auch, dass dies nur ein Beispiel-Plugin ist, dass ich für die Bewerbung geschrieben habe und nicht für eine Produktionsumgebung geeignet ist!!!
-```
