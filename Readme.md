@@ -3,9 +3,11 @@
 
 Das Attack Emails WordPress Plugin ist ein Tool zur Sammlung von Statistiken über Sicherheitslücken in Ihrer Website. Es sendet gezielt Phishing-E-Mails an ausgewählte Benutzer und erfasst, wie viele E-Mails geöffnet und geklickt werden.
 
+
 ## Funktionsweise
 
 Das Plugin fügt einen Menüpunkt "My Email Sender" im WordPress-Admin-Bereich hinzu. Der Administrator kann Benutzer auswählen, die Phishing-E-Mails erhalten sollen. Das Plugin speichert auch Metadaten wie die Anzahl der gesendeten E-Mails, geöffneten E-Mails und angeklickten E-Mails für jeden Benutzer.
+
 
 ## Installation
 
@@ -13,6 +15,7 @@ Das Plugin fügt einen Menüpunkt "My Email Sender" im WordPress-Admin-Bereich h
 2. Lade das Plugin-Verzeichnis in das Verzeichnis `/wp-content/plugins/` auf deinem WordPress-Server hoch.
 3. Aktiviere das Plugin im WordPress-Admin-Bereich unter "Plugins".
 4. Gehe zu "My Email Sender" im WordPress-Admin-Bereich, um Benutzer auszuwählen, die Phishing-E-Mails erhalten sollen.
+
 
 ## Code-Erklärung
 
