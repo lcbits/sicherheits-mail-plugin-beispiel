@@ -20,7 +20,7 @@ Das Plugin fügt einen Menüpunkt "My Email Sender" im WordPress-Admin-Bereich h
 
 Dies ist das Haupt-Skript des Plugins. Es fügt einen Menüpunkt "My Email Sender" im WordPress-Admin-Bereich hinzu und erstellt die Benutzeroberfläche, über die der Administrator Benutzer auswählen kann, die Phishing-E-Mails erhalten sollen.
 
-```
+```php
 function my_email_sender_admin_menu() {
 add_menu_page( 'My Email Sender', 'My Email Sender', 'manage_options', 'my-email-sender', 'my_email_sender_admin_page', 'dashicons-email', 6 );
 }
@@ -28,7 +28,7 @@ add_action( 'admin_menu', 'my_email_sender_admin_menu' );
 ```
 Dieser Code erstellt einen Menüpunkt "My Email Sender" im WordPress-Admin-Bereich und verknüpft ihn mit der Funktion "my_email_sender_admin_page" die das Benutzerinterface für die Auswahl der Benutzer die Phishing-E-Mails erhalten sollen erstellt.
 
-```
+```php
 function my_email_sender_admin_page() {
     ?>
     <div class="wrap">
@@ -80,7 +80,7 @@ Dieser Code erstellt die Tabelle in der Benutzer ausgewählt werden können. Es 
 ### email-opened.php
 
 Dieses Skript wird aufgerufen, wenn ein Benutzer eine Phishing-E-Mail öffnet. Es erhöht die Anzahl der geöffneten E-Mails für diesen Benutzer um 1.
-```
+```php
 <?php
 
 require_once( '../../../wp-load.php' );
@@ -97,7 +97,7 @@ update_user_meta( $user_id, 'my_email_sender_email_opened', $email_opened );
 ### email-clicked.php
 
 Dieses Skript wird aufgerufen, wenn ein Benutzer einen Link in einer Phishing-E-Mail anklickt. Es erhöht die Anzahl der geklickten E-Mails für diesen Benutzer um 1.
-```
+```php
 <?php
 
 require_once( '../../../wp-load.php' );
