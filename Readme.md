@@ -1,4 +1,5 @@
 # Attack Emails WordPress Plugin
+![preview](https://user-images.githubusercontent.com/98620308/212559747-19f6365d-cb5f-4ed1-b37e-3af0b46139d1.jpg)
 
 Das Attack Emails WordPress Plugin ist ein Tool zur Sammlung von Statistiken über Sicherheitslücken in Ihrer Website. Es sendet gezielt Phishing-E-Mails an ausgewählte Benutzer und erfasst, wie viele E-Mails geöffnet und geklickt werden.
 
